@@ -1,0 +1,8 @@
+{
+  "name": "Remix Faculty Duty Swap",
+  "description": "Faculty Duty Swap Management System for RGM College of Engineering \u0026 Technology. Comprehensive duty scheduling, peer-to-peer swap requests, approval workflows, and administrative reporting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
