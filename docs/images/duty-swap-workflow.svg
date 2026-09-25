@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title description">
+  <title id="title">Faculty duty swap workflow</title>
+  <desc id="description">A faculty member proposes a duty exchange. The colleague reviews it and either rejects it or accepts it, updating the schedule and swap history.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#64748b" />
+    </marker>
+    <style>
+      .label { font: 700 13px 'Segoe UI', sans-serif; letter-spacing: 1.2px; }
+      .title { font: 700 19px 'Segoe UI', sans-serif; }
+      .copy { font: 14px 'Segoe UI', sans-serif; }
+      .edge { fill: none; stroke: #64748b; stroke-width: 2; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect width="1200" height="390" rx="18" fill="#f8fafc" />
+  <path d="M36 1 H1164 Q1199 1 1199 36 V354 Q1199 389 1164 389 H36 Q1 389 1 354 V36 Q1 1 36 1Z" fill="none" stroke="#e2e8f0" />
+
+  <text x="44" y="48" class="label" fill="#0f766e">DUTY EXCHANGE</text>
+  <text x="44" y="78" class="title" fill="#0f172a">A clear path from proposal to updated schedule</text>
+
+  <rect x="44" y="132" width="205" height="112" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+  <circle cx="70" cy="158" r="13" fill="#dbeafe" />
+  <text x="70" y="163" text-anchor="middle" class="label" fill="#1d4ed8">1</text>
+  <text x="94" y="163" class="label" fill="#1d4ed8">FACULTY A</text>
+  <text x="64" y="190" class="title" fill="#0f172a">Propose a swap</text>
+  <text x="64" y="212" class="copy" fill="#475569">Choose your duty and</text>
+  <text x="64" y="230" class="copy" fill="#475569">a colleague's duty</text>
+
+  <path d="M252 181 H293" class="edge" />
+
+  <rect x="305" y="132" width="205" height="112" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+  <circle cx="331" cy="158" r="13" fill="#fef3c7" />
+  <text x="331" y="163" text-anchor="middle" class="label" fill="#b45309">2</text>
+  <text x="355" y="163" class="label" fill="#b45309">REQUEST</text>
+  <text x="325" y="190" class="title" fill="#0f172a">Send for review</text>
+  <text x="325" y="212" class="copy" fill="#475569">Colleague receives an</text>
+  <text x="325" y="230" class="copy" fill="#475569">in-app notification</text>
+
+  <path d="M513 181 H554" class="edge" />
+
+  <rect x="566" y="132" width="205" height="112" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+  <circle cx="592" cy="158" r="13" fill="#ede9fe" />
+  <text x="592" y="163" text-anchor="middle" class="label" fill="#6d28d9">3</text>
+  <text x="616" y="163" class="label" fill="#6d28d9">FACULTY B</text>
+  <text x="586" y="190" class="title" fill="#0f172a">Review request</text>
+  <text x="586" y="212" class="copy" fill="#475569">Accept or reject</text>
+  <text x="586" y="230" class="copy" fill="#475569">the proposal</text>
+
+  <path d="M774 181 H818 V135 H851" class="edge" />
+  <path d="M818 181 V273 H851" class="edge" />
+  <text x="828" y="126" class="label" fill="#15803d">ACCEPT</text>
+  <text x="828" y="264" class="label" fill="#be123c">REJECT</text>
+
+  <rect x="864" y="91" width="285" height="91" rx="12" fill="#ecfdf5" stroke="#86efac" stroke-width="1.5" />
+  <circle cx="892" cy="119" r="13" fill="#bbf7d0" />
+  <path d="m886 119 4 4 8-9" fill="none" stroke="#15803d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="916" y="124" class="label" fill="#15803d">APPROVED</text>
+  <text x="884" y="153" class="title" fill="#14532d">Schedule is exchanged</text>
+  <text x="884" y="173" class="copy" fill="#166534">The completed transaction enters history</text>
+
+  <rect x="864" y="228" width="285" height="91" rx="12" fill="#fff1f2" stroke="#fda4af" stroke-width="1.5" />
+  <circle cx="892" cy="256" r="13" fill="#fecdd3" />
+  <path d="m888 252 8 8m0-8-8 8" fill="none" stroke="#be123c" stroke-width="2.2" stroke-linecap="round" />
+  <text x="916" y="261" class="label" fill="#be123c">DECLINED</text>
+  <text x="884" y="290" class="title" fill="#881337">Request is closed</text>
+  <text x="884" y="310" class="copy" fill="#9f1239">The schedule remains unchanged</text>
+
+  <text x="44" y="359" class="copy" fill="#64748b">Both outcomes are visible in the request list; approved exchanges are recorded in swap history.</text>
+</svg>
